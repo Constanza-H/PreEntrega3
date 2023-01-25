@@ -1,0 +1,17 @@
+@media ( max-width:768px ){
+    header{
+        background-image:linear-gradient(to bottom , #A2B38B , #7FA682 , #57997E ); 
+    }
+    .navBar {
+        flex-direction: column;
+       align-items: center;
+    }
+    .header .Navlogo img{
+        display: block;
+    }
+    .mainContainer1 .encabezado{
+        background-image: url(../assets/img/portada\ alimentos\ tablet.jpg);
+        width: 100%;
+       background-repeat: no-repeat;
+    }
+}
