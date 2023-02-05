@@ -1,10 +1,11 @@
 .mainContainer3 {
+	background-image: url("../assets/img/fondo de pantalla secciones.jpg");
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: 1fr 50px 1fr 1fr 1fr 1fr;
 	row-gap: 15px;
 	h1 {
-		color: $color-2;
+		color: $color-3;
 		font-family: $tipografia-principal;
 		font-size: 40px;
 		text-align: center;
@@ -34,11 +35,13 @@
 		justify-content: center;
 		align-items: flex-end;
 		font-size: 18px;
+		
 	}
 	.nivel2 {
 		list-style-image: url(../assets/img/i\ cuchara\ verde\ red.png);
 		margin-top: 15px;
 		font-size: 18px;
+		
 	}
 }
 .section-2_2 {
@@ -46,28 +49,35 @@
 	grid-row: 3;
 	list-style-image: url(../assets/img/i\ cuchara\ verde\ red.png);
 	font-size: 18px;
+	background-color:rgba(255, 255, 255, 0.478) ; 
 }
 .section-2_3 {
 	grid-column: 2;
 	grid-row: 4;
 	font-size: 18px;
+	background-color:rgba(255, 255, 255, 0.478) ; 
 }
 .section-2_4 {
 	grid-column: 2;
 	grid-row: 5;
 	font-size: 18px;
+	background-color:rgba(255, 255, 255, 0.478) ; 
 }
 .section-2_5 {
 	grid-column: 2;
 	grid-row: 6;
 	display: grid;
-	align-items: flex-start;
 	margin-left: 200px;
 	font-size: 18px;
+	background-color:rgba(255, 255, 255, 0.478) ; 
+	align-content:   center;
 }
-.img1 {
-	border-radius: 50%;
-}
-.img_1 {
-	display: none;
-}
+.img2 {
+		display: grid;
+		border-radius: 50%;
+		grid-column: 2;
+		grid-row: 6;
+		margin-left: 200px;
+	}
+
+
